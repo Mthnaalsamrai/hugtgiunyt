@@ -1,0 +1,125 @@
+
+
+* {
+padding : 0px;
+margin : 0px;
+}
+
+
+
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    height:95vh;
+    padding: 85px 450px 85px 300px;
+    box-sizing:border-box;
+    background-color: #f2f4f7;
+}
+.container .content {
+    width: 45%;
+    margin-right:auto ;
+    position: relative;
+    top: 20px;
+    padding-left: 36px;
+}
+.container .content img{
+    height: 49.5px;
+    margin: 100px;
+}
+.container .content p {
+    position: relative;
+    top:-85px;
+    left: 100px;
+    font-size: 28px;
+    font-family: sans-serif;
+
+}
+.container .form-parent{
+    width: 35%;
+    margin-left:auto ;
+    margin-top: 50px;
+    
+
+}
+.container .form-parent form{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    width: 400px;
+    height: 350px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px rgb(0 0 0 /10%),0 8px 16px rgb(0 0 0 /10%);
+    background-color: white;
+    border-radius: 6px;
+}
+.container .form-parent form input{
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 7px 0px;
+    border-radius: 5px;
+    border:1px solid #dddfe2;
+}
+.container .form-parent form input:hover {
+    border:1px solid #1877f2;
+
+}
+ 
+
+.container .form-parent form .login-btn{
+    background-color: #1877f2;
+    color: white;
+    font-size: 20px !important;
+    font-weight: 700;
+    border: none !important;
+    cursor: pointer;
+}
+.container .form-parent form .login-btn:hover{
+    background-color: #4990ee;
+}
+.container .form-parent form .forget-link{
+text-align: center;
+color: #1877f2;
+font-size: 14px;
+font-weight: 500;
+font-family: sans-serif;
+margin: 10px 2px 20px;
+text-decoration: none !important;
+}
+
+.container .form-parent form .btn{
+    all:unset;
+    margin: auto auto 10px;
+    font-family: sans-serif;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0px 16px;
+    color: white;
+    background-color: #42b72a;
+    cursor: pointer;
+}
+.container .form-parent form .btn:hover {
+    background-color: #36a420;
+
+
+}
+
+.container .form-parent p{
+    width:400px ;
+    padding:20px ;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.container .form-parent p a{
+color: black;
+text-decoration: none !important;
+font-weight: 900;
+font-size: 13px;
+width: fit-content;
+}
+
